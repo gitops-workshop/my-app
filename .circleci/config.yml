@@ -21,7 +21,7 @@ jobs:
 
             ./argocd app create preview-$CIRCLE_PR_NUMBER \
                 --repo https://github.com/gitops-workshop/my-app-deployment \
-                --path . \
+                --path base \
                 --dest-server https://kubernetes.default.svc \
                 --dest-namespace ci \
                 --nameprefix preview-$CIRCLE_PR_NUMBER \

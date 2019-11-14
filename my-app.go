@@ -8,7 +8,7 @@ import (
 
 func main() {
 	for {
-		log.Println(os.Getenv("GREETING") + "!!!!!")
+		log.Println(os.Getenv("GREETING"))
 		time.Sleep(1 * time.Second)
 	}
 }

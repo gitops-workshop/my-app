@@ -16,7 +16,7 @@ docker run -e GREETING=Howdy my-app:v1
 ### Release:
 
 ```
-docker tag my-app:v3 alexcollinsintuit/my-app:v1
+docker tag my-app:v1 alexcollinsintuit/my-app:v1
 docker push alexcollinsintuit/my-app:v1
 ```
 
